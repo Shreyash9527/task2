@@ -1,0 +1,91 @@
+
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+    background-image:url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    display: block;
+    background-color: red;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color : whitesmoke;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+.submit-btn {
+    background-color: rgb(29, 190, 29);
+    border: 1px solid white;
+    color: white;
+    border-radius: 100px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}
+.reset-btn {
+    background-color : red;
+    border: 1px solid white;
+    color: white;
+    border-radius: 100px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}

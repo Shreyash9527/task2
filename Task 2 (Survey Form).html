@@ -1,0 +1,88 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css"> 
+	<script src="task2.js"></script>
+
+	<title>
+		Build a Survey Form using HTML and CSS
+	</title>
+</head>
+  <body>
+	<h1 class="heading">Internship Form </h1>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+		<div class="form-control">
+      <label for="name">Candidate Name </label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+	</div>
+
+	<div class="form-control">
+      <label for="email">Email </label>
+      <input type="email" id="email" name="email" placeholder="Enter your email ">
+	</div>
+
+	<div class="form-control">
+		<label for="age"> Age </label>
+		<input type="text" id="age" placeholder="Enter your age" /> </div>
+
+
+	<div class="form-control">
+		<label for="role" id="label-role">
+			Choose Your Current Post 
+		</label>
+		
+		<!-- Dropdown options -->
+		<select name="role" id="role">
+			<option value="student">Student</option>
+			<option value="intern">Intern</option>
+			<option value="professional"> IT Worker </option>
+			<option value="other">Other</option> </select>
+	</div>
+
+	<div class="form-control">
+		<label for="recommed-1"> </label>
+		<input type="radio" id="recommed-1" name="recommed">Yes</input>
+		<input type="radio" id="recommed-1" name="recommed">No</input>
+		<input type="radio" id="recommed-1" name="recommed">Maybe</input>
+	  </div>
+
+	<div class="form-control">
+      <label for="message">Any reasong for recommedation or not ? (if any in one line)	</label>
+      <textarea id="message" name="message"></textarea><br>
+	</div>
+
+
+
+	<div class="form-control">
+
+      <label for="agree"> Languages and Frameworks known </label>
+      <input type="checkbox" id="course" name="course"> C <br>
+	  <input type="checkbox" id="course1" name="course1"> C++ <br>
+	  <input type="checkbox" id="course1" name="course1"> C# <br>
+	  <input type="checkbox" id="course1" name="course1"> Java <br>
+	  <input type="checkbox" id="course1" name="course1"> Python <br>
+	  <input type="checkbox" id="course1" name="course1"> JavaScript <br>
+	  <input type="checkbox" id="course1" name="course1"> React <br>
+	  <input type="checkbox" id="course1" name="course1"> Angular <br>
+	  <input type="checkbox" id="course1" name="course1"> Django <br>
+	  <input type="checkbox" id="course1" name="course1"> Spring <br>
+	</div>
+
+	<div class="form-control">
+		<label for="comment"> Any comments or suggestions </label>
+
+		<!-- multi-line text input control -->
+		<textarea name="comment" id="comment" placeholder="Enter your comment here"> </textarea>
+	</div>
+	
+	<button class="submit-btn" type="submit" value="submit"> Submit </button>
+	<button class="reset-btn" type="reset" value="reset"> Reset </button>
+    </form>
+  </body>
+
+</html>
